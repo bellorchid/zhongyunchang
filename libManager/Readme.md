@@ -8,8 +8,10 @@
  - 用户不能实现实时借阅，借阅不方便
  - 用户无法通过网络即时获得书库所有书的详细资料，图书借阅目的性较差
  - 用户不能实时获得自己的借阅历史和当前借阅记录
+ 
 ###调查问卷
-![问卷表](./img/library/questionnaire.jpg)
+![问卷表](./img/questionnaire.jpg)
+
 ###同类软件：杭电图书馆管理系统
 [http://www.lib.hdu.edu.cn/](http://www.lib.hdu.edu.cn/)
 ###图书管理的主要内容
