@@ -1,5 +1,5 @@
 ﻿
-<form action="../models/blog/regcheck.php" method="post" charset="UTF-8">
+<form action="../../models/blog/regcheck.php" method="post" charset="UTF-8">
     用户名：<input type="text" name="username"/>
     <br/>
     密　码:<input type="password" name="password"/>

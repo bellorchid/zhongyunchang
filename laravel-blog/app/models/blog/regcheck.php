@@ -1,4 +1,4 @@
-
+﻿
 <?php
 if(isset($_POST["Submit"]) && $_POST["Submit"] == "注册")
 {
@@ -25,7 +25,7 @@ if(isset($_POST["Submit"]) && $_POST["Submit"] == "注册")
             }
             else    //不存在当前注册用户名称
             {
-                $sql_insert = "insert into user (username,password,phone,address) values('$_POST[username]','$_POST[password]','','')";
+                $sql_insert = "insert into user (username,password,email,telphone) values('$_POST[username]','$_POST[password]','','')";
                 $res_insert = mysql_query($sql_insert);
                 //$num_insert = mysql_num_rows($res_insert);
                 if($res_insert)
